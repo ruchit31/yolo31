@@ -1,0 +1,12 @@
+package edu.sjsu.cmpe275.term.dao;
+
+import edu.sjsu.cmpe275.term.model.Book;
+
+public interface PatronDAO {
+	public void saveNewBook(Book book);
+
+	public void saveNewPatron();
+
+
+	
+}

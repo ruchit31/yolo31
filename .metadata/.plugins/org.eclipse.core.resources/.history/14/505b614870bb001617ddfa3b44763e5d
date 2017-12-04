@@ -1,0 +1,16 @@
+package edu.sjsu.cmpe275.term.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import edu.sjsu.cmpe275.term.dao.BookDAO;
+
+public interface BookStatusService {
+	
+	
+	
+	@Autowired
+	private BookStatusDAO bookStatusDAO;
+	
+	public void issueBooks(int books[]);
+
+}

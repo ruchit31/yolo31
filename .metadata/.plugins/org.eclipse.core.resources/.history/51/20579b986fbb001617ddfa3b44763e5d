@@ -1,0 +1,6 @@
+package edu.sjsu.cmpe275.term.model;
+
+public interface BookStatusDAO {
+	
+	
+}

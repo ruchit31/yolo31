@@ -1,0 +1,11 @@
+package edu.sjsu.cmpe275.term.dao;
+
+public class BookStatusDAOImpl implements BookStatusDAO{
+
+	@Override
+	public void issueBooks(BookStatus bookStatus) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

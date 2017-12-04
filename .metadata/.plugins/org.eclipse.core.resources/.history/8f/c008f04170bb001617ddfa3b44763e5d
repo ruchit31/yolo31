@@ -1,0 +1,14 @@
+package edu.sjsu.cmpe275.term.service;
+
+public class BookStatusServiceImpl implements BookStatusService {
+
+	@Override
+	public void issueBooks(int[] books) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+
+}

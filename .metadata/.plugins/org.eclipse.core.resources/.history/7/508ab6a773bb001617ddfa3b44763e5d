@@ -1,0 +1,15 @@
+package edu.sjsu.cmpe275.term.dao;
+
+import edu.sjsu.cmpe275.term.model.BookStatus;
+
+public class BookStatusDAOImpl extends AbstractDAO <String, BookStatus> implements BookStatusDAO{
+
+	@Override
+	public BookStatus issueBooks(BookStatus bookStatus) {
+		// TODO Auto-generated method stub
+		return save(book);
+	}
+
+
+
+}

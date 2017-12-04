@@ -1,0 +1,15 @@
+package edu.sjsu.cmpe275.term.dao;
+
+import edu.sjsu.cmpe275.term.model.Patron;
+
+public class PatronDAOImpl extends AbstractDao<String, Patron> implements PatronDAO {
+
+	@Override
+	public Patron saveNewPatron(Patron patron) {
+		// TODO Auto-generated method stub
+		return save(patron);
+	}
+
+
+
+}

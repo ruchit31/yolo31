@@ -1,0 +1,17 @@
+package edu.sjsu.cmpe275.term.service;
+
+public class PatronServiceImpl {
+		
+		@Autowired
+		private PatronDAO patronDAO;
+		
+		public void setPatronDAO(PatronDAO patronDAO) {
+			this.patronDAO = patronDAO;
+		}
+	
+		@Override
+		public Patron saveNewPatron(Patron patron) {
+			return patronDAO.saveNewPatron(patron);
+			
+		}
+}
